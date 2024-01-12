@@ -4,6 +4,8 @@ Welcome to the NOAA Omics Data Management Guide!
 
 ## How to use this site
 
+Go to the [Omics Data Management Guide website](https://omics-data-management-rtd.readthedocs.io/en/latest/) to explore the guide! 
+
 ### Experienced users
 
 If you are an experienced user looking for a quick start guide to managing your data and metadata, we suggest starting with the section [Getting Started](https://test-dmg-mkdocs.readthedocs.io/en/latest/getting-started.html), [Data Management Plan Template](https://test-dmg-mkdocs.readthedocs.io/en/latest/dmp-template.html), and then [Study Data Templates](https://test-dmg-mkdocs.readthedocs.io/en/latest/study-data-templates.html) to work with your own data.
