@@ -4,7 +4,7 @@ Welcome to the NOAA Omics Data Management Guide!
 
 ## How to use this site
 
-Go to the [Omics Data Management Guide website](https://omics-data-management-rtd.readthedocs.io/en/latest/) to explore the guide! 
+Go to the [Omics Data Management Guide website](https://noaa-omics-dmg.readthedocs.io/) to explore the guide! 
 
 ### Experienced users
 
