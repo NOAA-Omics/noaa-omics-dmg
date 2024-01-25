@@ -11,7 +11,7 @@ To meet these requirements, every NOAA Omics project should have a Data Manageme
 3. Persistent digital object identifiers (DOI) or accession numbers generated in (#1) and (#2) must be [cross-linked](https://test-dmg-mkdocs.readthedocs.io/en/latest/omics-data-guidelines.html#archiving-and-cross-linking) so that all data and metadata from a project can be discoverable.  
 4. Fill out a [Data Management Plan template](https://test-dmg-mkdocs.readthedocs.io/en/latest/dmp-template.html).
 
-![DMG fig](assets/biddle_mermaid_fig_dmg.png)
+![DMG fig](assets/20240126_mermaid_eDNA_workflow.png)
 
 ## Data Management Workflow
 
