@@ -1,5 +1,3 @@
-<-- example{!README.md!}-->
-
 ## How to use this site
 
 ### Experienced users
@@ -23,4 +21,7 @@ The focus of this guide is to help omics users decide which data goes to which r
 !!! note
 
     This project is under active development.
+
+
+<!-- example{!README.md!} -->
 
