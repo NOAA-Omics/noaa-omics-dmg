@@ -5,16 +5,16 @@ Use the Table of Contents on the left to navigate to relevant sections for your 
 
 # NOAA Omics Study Data Templates
 
-A new NOAA Omics study data template was developed based on feedback from NOAA partners at AOML, PMEL, and the NOAA Omics Data and Bioinformatics Supergroup. This template incorporates data standards from [MIxS](https://github.com/aomlomics/omics-data-management/wiki/3-Study-Data-Templates#sample-metadata-templates), [Darwin Core](https://dwc.tdwg.org/terms/), and custom recommended NOAA fields to facilitate data management of eDNA survey samples, from project initiation through data submission. For guidance on using the template, check out the template's `README` page or the [documentation wiki](). Additional templates are in development to cover other data types and environments. If you are interested in developing a NOAA Omics template for your data/environment type, please reach out to katherine.silliman@noaa.gov!
+A new NOAA Omics study data template was developed based on feedback from NOAA partners at OAR and the NOAA Omics Data and Bioinformatics Supergroup. This template incorporates data standards from [MIxS](https://genomicsstandardsconsortium.github.io/mixs/), [Darwin Core](https://dwc.tdwg.org/terms/), and custom recommended NOAA fields to facilitate data management of eDNA survey samples, from project initiation through data submission. For guidance on using the template, check out the template's `README` page or the [documentation wiki](). Additional templates are in development to cover other data types and environments. If you are interested in developing a NOAA Omics template for your data/environment type, please reach out to katherine.silliman@noaa.gov!
  <!-- change this to Read the Docs -->  
 
 * **[NOAA_MIMARKS.survey.water.template](https://docs.google.com/spreadsheets/d/1YBXFU9PuMqm7IT1tp0LTxQ1v2j0tlCWFnhSpy-EBwPw/edit?usp=sharing)**: use for amplicon and/or metagenomic data from water environmental samples 
   + [Filled out example NOAA_MIMARKS template](https://docs.google.com/spreadsheets/d/1b7m5u7Cqj-L6vJYk81CHHDNNXftr3JRNCpGgcVJtCEE/edit?usp=sharing)
 * **[NOAA_MIMARKS.survey.host-associated.template](https://docs.google.com/spreadsheets/d/1JtWgX_t5PbG0CpEJWHu906yH8Udek3l4I-KOM80MR6M/edit?usp=sharing)**: use for amplicon and/or metagenomic data from host-associated samples
 
-# Templates for DNA/RNA sequence data
+# Other templates for DNA/RNA sequence data
 
-**While the templates below provide some information on metadata formatting and support the minimum metadata required for submission to NCBI, we provide additional formatting guidance and recommended custom metadata fields on the [Metadata Guidelines page](https://github.com/aomlomics/omics-data-management/wiki/4-Metadata-Guidelines#metadata-formats-and-custom-fields).**
+**While the templates below provide some information on metadata formatting and support the minimum metadata required for submission to NCBI, we provide additional formatting guidance and recommended custom metadata fields on the [Metadata Guidelines page](https://noaa-omics-dmg.readthedocs.io/en/latest/metadata-guidelines.html#metadata-formats-and-custom-fields).**
 
 ## Sample metadata templates
 
@@ -22,7 +22,7 @@ Genomic Standards Consortium (GSC) Minimal Information about any (x) Sequence (M
 
 Metadata input templates:
 
-* NCBI provides a [useful link](https://submit.ncbi.nlm.nih.gov/biosample/template/) to download MIxS sample metadata templates based on your sequence data type and sample environment (known as 'packages'). These templates will be appropriate for the majority of NOAA 'Omics projects that generate DNA/RNA sequence data, and can be used to **generate NCBI BioSamples**. The [NOAA Omics study data template](https://docs.google.com/spreadsheets/d/1fAJxtH_ioIN5Ri7dXe4Lsy8SuImg8NR79MUGSOb1vpk/edit?usp=sharing) includes a `sample_data' sheet that can be used for submission to NCBI BioSample.
+* NCBI provides a [useful link](https://submit.ncbi.nlm.nih.gov/biosample/template/) to download MIxS sample metadata templates based on your sequence data type and sample environment (known as 'packages'). These templates will be appropriate for the majority of NOAA 'Omics projects that generate DNA/RNA sequence data, and can be used to **generate NCBI BioSamples**. The [NOAA Omics study data template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html#noaa-omics-study-data-templates) includes a `sample_data' sheet that can be used for submission to NCBI BioSample.
 * The National Microbiome Data Collaborative (NMDC) maintains the [NMDC Submission Portal](https://data.microbiomedata.org/submission/home) that allows inputing metadata with real-time validation. The submission portal supports several different community standards, such as the MIxS standard from GSC, the PROV standard for provenance metadata, the Proteomics Standards Initiative (PSI) standards for metaproteomics, and the Metabolomics Standards Initiative (MSI) standards for metabolomics. 
 
 A guide to choosing the right metadata package given your 'omics data type is below:  
@@ -48,7 +48,7 @@ For most NOAA 'Omics projects, the `water` or `sediment` environmental packages 
 
 Preparation metadata is directly related to the preparation of the biomaterial undergoing the 'omics assay and the process of performing the assay. A primary sample could be split (aliquoted) and processed through multiple preparation methods; therefore, there could be multiple sets of preparation metadata for a single set of samples.  
 
-NCBI repositories (e.g., SRA, GenBank) provide some templates for the minimum required preparation metadata, while in other cases they require interactive user input. We recommend submitting your sample metadata and generating BioSample accession IDs first, although you can do both steps at the same time. The [NOAA Omics study data template](https://docs.google.com/spreadsheets/d/1fAJxtH_ioIN5Ri7dXe4Lsy8SuImg8NR79MUGSOb1vpk/edit?usp=sharing) includes a `prep_data' sheet that can be used for submission to NCBI SRA.
+NCBI repositories (e.g., SRA, GenBank) provide some templates for the minimum required preparation metadata, while in other cases they require interactive user input. We recommend submitting your sample metadata and generating BioSample accession IDs first, although you can do both steps at the same time. The [NOAA Omics study data template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html#noaa-omics-study-data-templates) includes a `prep_data' sheet that can be used for submission to NCBI SRA.
 
 **High-throughput sequencing data (SRA)**
 
