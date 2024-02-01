@@ -3,7 +3,7 @@ Getting Started
 
 ## Key Requirements for Omics Data 
 
-In accordance with the [NOAA Plan for IncreasingnPublic Access to Research Results (PARR)](https://www.glerl.noaa.gov/review2016/reviewer_docs/NOAA_PARR_Plan_v5.04.pdf), NOAA-funded digitally formatted scientific data must be made publicly visible and accessible in a timely manner, in a machine-readable format using non-proprietary standards, and with the metadata necessary to find and properly use the data.  
+In accordance with the [NOAA Plan for Increasing Public Access to Research Results (PARR)](https://www.glerl.noaa.gov/review2016/reviewer_docs/NOAA_PARR_Plan_v5.04.pdf), NOAA-funded digitally formatted scientific data must be made publicly visible and accessible in a timely manner, in a machine-readable format using non-proprietary standards, and with the metadata necessary to find and properly use the data.  
 
 To meet these requirements, every NOAA Omics project should have a Data Management Plan. At **minimum** a data management plan should include:  
 
