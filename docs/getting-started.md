@@ -7,9 +7,9 @@ In accordance with the [NOAA Plan for IncreasingnPublic Access to Research Resul
 
 To meet these requirements, every NOAA Omics project should have a Data Management Plan. At **minimum** a data management plan should include:  
 
-1. Fill out a **[Data Management Plan template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html)**
-2. **Omics Data Guidelines:** Submission of [omics data](https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html) to the appropriate public data repository (e.g., sequence data to NCBI).
-3. **Metadata Guidelines:** Projects including [environmental measurements](https://noaa-omics-dmg.readthedocs.io/en/latest/metadata-guidelines.html#submitting-metadata-and-environmental-data-to-repositories) (e.g., cruises, mesocosm experiments) must submit metadata and environmental data to [NCEI](https://www.ncei.noaa.gov/). For all projects, relevant metadata and data products not submitted in (#2) should be submitted to the appropriate public archived repository.
+1. Fill out a **[Data Management Plan template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html)** to describe your [data management workflow](https://noaa-omics-dmg.readthedocs.io/en/latest/getting-started#data-management-workflow.html). 
+2. **Omics Data Guidelines:** Submission of [omics data](https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html) to the appropriate public data repository (e.g., raw sequence data to NCBI).
+3. **Metadata Guidelines:** Projects including [environmental measurements](https://noaa-omics-dmg.readthedocs.io/en/latest/metadata-guidelines.html#submitting-metadata-and-environmental-data-to-repositories) (e.g., cruises, mesocosm experiments) must submit metadata and environmental data to [NCEI](https://www.ncei.noaa.gov/). For all projects, relevant metadata and data products not submitted in (#2) should be submitted to the appropriate public archived repository. Some examples of metadata include contextual info about the project, protocols, and bioinformatics code. 
 4. Persistent digital object identifiers (DOI) or accession numbers generated in (#2) and (#3) must be **[cross-linked](https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines#archiving-and-cross-linking)** so that all data and metadata from a project can be discoverable.  
 
 ![DMG fig](assets/20240126_mermaid_eDNA_workflow.png)
