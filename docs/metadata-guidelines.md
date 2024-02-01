@@ -126,10 +126,11 @@ The suggested deadline for data to be published and accessible in NCEI is one ye
 
 ## Useful links
 
-* Metadata guides
+Metadata guides  
   + [National Microbiome Data Collaborative (NMDC)](https://microbiomedata.org/introduction-to-metadata-and-ontologies/) -- covers additional metadata
   + [Earth Microbiome Project (EMP)](https://earthmicrobiome.org/protocols-and-standards/metadata-guide/)
-* Metadata standards
+
+Metadata standards  
   + [GSC defined terms](https://www.gensc.org/pages/standards/all-terms.html)
   + [Biosample Attributes](https://www.ncbi.nlm.nih.gov/biosample/docs/attributes/)
   + [BeBOP-OBON Protocol Collection Template](https://github.com/BeBOP-OBON/0_protocol_collection_template)
