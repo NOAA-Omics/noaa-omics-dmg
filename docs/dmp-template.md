@@ -1,4 +1,4 @@
-Data Management Plan Template
+Data Management Plans
 =====
 
 This guide is to help prepare a Data Management Plan (DMP), using the [NOAA Omics Data Management Plan Template](https://github.com/aomlomics/omics-data-management/blob/main/NOAA%20'Omics%20DMP%20Template%20v1.0.docx) provided in this Github repository. DMPs are often required by internal and external funding programs, and will soon be required of all NOAA projects by NOAA Management of Environmental Data and Information directives. Beyond these requirements, **DMPs are also valuable tools for developing internal and external data management workflows.**  
