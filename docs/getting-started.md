@@ -5,8 +5,6 @@ Getting Started
 
 In accordance with the [NOAA Plan for IncreasingnPublic Access to Research Results (PARR)](https://www.glerl.noaa.gov/review2016/reviewer_docs/NOAA_PARR_Plan_v5.04.pdf), NOAA-funded digitally formatted scientific data must be made publicly visible and accessible in a timely manner, in a machine-readable format using non-proprietary standards, and with the metadata necessary to find and properly use the data.  
 
-[link](http://example.com/path/to/page.html#a-header)
-
 To meet these requirements, every NOAA Omics project should have a Data Management Plan. At **minimum** a data management plan should include:  
 
 1. Fill out a **[Data Management Plan template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html)** to describe your [data management workflow](https://noaa-omics-dmg.readthedocs.io/en/latest/getting-started.html#data-management-workflow). 
