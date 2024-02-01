@@ -1,7 +1,7 @@
 Data Management Plans
 =====
 
-This guide is to help prepare a Data Management Plan (DMP), using the [NOAA Omics Data Management Plan Template](https://github.com/aomlomics/omics-data-management/blob/main/NOAA%20'Omics%20DMP%20Template%20v1.0.docx) provided in this Github repository. DMPs are often required by internal and external funding programs, and will soon be required of all NOAA projects by NOAA Management of Environmental Data and Information directives. Beyond these requirements, **DMPs are also valuable tools for developing internal and external data management workflows.**  
+This guide is to help prepare a Data Management Plan (DMP), using the [NOAA Omics Data Management Plan Template](https://github.com/NOAA-Omics/noaa-omics-templates/blob/main/data-management-plan-template/NOAA%20'Omics%20DMP%20Template%20v1.0.docx) provided in the [noaa-omics-templates Github repository](https://github.com/NOAA-Omics/noaa-omics-templates/). DMPs are often required by internal and external funding programs, and will soon be required of all NOAA projects by NOAA Management of Environmental Data and Information directives. Beyond these requirements, **DMPs are also valuable tools for developing internal and external data management workflows.**  
 
 ## What organizational level should I write my DMP?
 DMPs can be made at the level of:  
@@ -135,21 +135,21 @@ Contact [Name] at [Phone/Email] for more information on data management. In the 
 
 ## Other DMP template options
 
-The [NOAA DMP Template v2.0.1](https://nosc.noaa.gov/EDMC/PD.DMP.php) has 8 required sections:
-  1. General Description of Data to be Managed
-  2. Point of Contact for this Data Management Plan (author or maintainer)
-  3. Responsible Party for Data Management -- Who is responsible for ensuring the proper management of the data produced?
-  4. Resources -- Programs must identify resources within their own budget for managing the data they produce.
-  5. Data Lineage and Quality -- Follows NOAA Information Quality Guidelines on the quality, objectivity, utility, and integrity of information which it disseminates.
-  6. Data Documentation
-  7. Data Access
-  8. Data Preservation and Protection 
+The [NOAA DMP Template v2.0.1](https://nosc.noaa.gov/EDMC/PD.DMP.php) has 8 required sections:  
+  1. General Description of Data to be Managed  
+  2. Point of Contact for this Data Management Plan (author or maintainer)  
+  3. Responsible Party for Data Management -- Who is responsible for ensuring the proper management of the data produced?  
+  4. Resources -- Programs must identify resources within their own budget for managing the data they produce.  
+  5. Data Lineage and Quality -- Follows NOAA Information Quality Guidelines on the quality, objectivity, utility, and integrity of information which it disseminates.  
+  6. Data Documentation  
+  7. Data Access  
+  8. Data Preservation and Protection  
 
 
-Alternative external DMP template: [NMDC Omics Data Management guide](https://nmdc-documentation.readthedocs.io/en/latest/howto_guides/data_plan.html) and accompanying [DMPTool to generate a template](https://dmptool.org/), which has 6 sections: 
- 1. Data Policy Compliance -- Identify any published data policies with which the project will comply, including the Data and Sample Policy of your primary funder as well as other policies that may be relevant if the project is part of a larger coordinated research program.
- 2. Sample and Data Types -- Describe the data set including basic identification information, average size, volume of estimated number of data files produced
- 3. Data Standards and Formats -- This section communicates that you are aware of and will abide by community best practices whenever possible. 
- 4. Roles and Responsibilities -- How your data management plan will be executed and ensures that your team’s data management responsibilities are clearly defined.
- 5. Data Dissemination and Archiving -- describes what the final data products will be and how you will protect data if applicable. 
- 6. Data and Sample Preservation -- This section communicates the sustainability plan for your data, showing your funder that the data products will last after the completion of the project.
+Alternative external DMP template: [NMDC Omics Data Management guide](https://nmdc-documentation.readthedocs.io/en/latest/howto_guides/data_plan.html) and accompanying [DMPTool to generate a template](https://dmptool.org/), which has 6 sections:  
+ 1. Data Policy Compliance -- Identify any published data policies with which the project will comply, including the Data and Sample Policy of your primary funder as well as other policies that may be relevant if the project is part of a larger coordinated research program.  
+ 2. Sample and Data Types -- Describe the data set including basic identification information, average size, volume of estimated number of data files produced  
+ 3. Data Standards and Formats -- This section communicates that you are aware of and will abide by community best practices whenever possible.  
+ 4. Roles and Responsibilities -- How your data management plan will be executed and ensures that your team’s data management responsibilities are clearly defined.  
+ 5. Data Dissemination and Archiving -- describes what the final data products will be and how you will protect data if applicable.  
+ 6. Data and Sample Preservation -- This section communicates the sustainability plan for your data, showing your funder that the data products will last after the completion of the project.  
