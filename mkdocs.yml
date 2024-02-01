@@ -25,4 +25,6 @@ nav:
   - 'Open Science Principles': 'open-science.md'
   - 'Contributors': 'contributors.md'
 use_directory_urls: false
-
+markdown_extensions:
+  - toc:
+      permalink: "#"
