@@ -12,7 +12,9 @@ To meet these requirements, every NOAA Omics project should have a Data Manageme
 3. **Metadata Guidelines:** Projects including [environmental measurements](https://noaa-omics-dmg.readthedocs.io/en/latest/metadata-guidelines.html#submitting-metadata-and-environmental-data-to-repositories) (e.g., cruises, mesocosm experiments) must submit metadata and environmental data to [NCEI](https://www.ncei.noaa.gov/). For all projects, relevant metadata and data products not submitted in (#2) should be submitted to the appropriate public archived repository. Some examples of metadata include contextual info about the project, protocols, and bioinformatics code. 
 4. Persistent digital object identifiers (DOI) or accession numbers generated in (#2) and (#3) must be **[cross-linked](https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html#archiving-and-cross-linking)** so that all data and metadata from a project can be discoverable.  
 
-![DMG fig](assets/20240126_mermaid_eDNA_workflow.png)
+![DMG fig](assets/20240204_mermaid_eDNA_workflow_ndmc.png)
+
+![DMG fig](assets/noaa_data_lifecycle.png)
 
 ## Data Management Workflow
 
