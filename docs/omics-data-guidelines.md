@@ -15,7 +15,7 @@ Data type | Data formats (non-exhaustive) | Repository
 -- | -- | --
 DNA reference sequences | GenBank format | [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/submit/)
 DNA sequence data (amplicon, metagenomic, RAD-Seq) | Raw FASTQ | [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/docs/submit/)
-Amplicon Sequence Variants | Reference FASTA | [OBIS/GBIF](https://github.com/aomlomics/edna2obis) or another path to [NCEI](https://www.ncei.noaa.gov/archive)
+Amplicon Sequence Variants | Reference FASTA | [OBIS/GBIF](https://github.com/aomlomics/edna2obis), [NCBI](https://www.ncbi.nlm.nih.gov/)
 RNA sequence data (RNA-Seq) | Raw FASTQ | [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/docs/submit/)
 Functional genomics data (quantitative gene expression, ChIP-Seq, HiC-seq, methylation seq) | Metadata, processed data (e.g., raw read counts) raw FASTQ | [NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/info/submission.html) (raw data submitted to NCBI SRA for you)
 RNA transcript assemblies | FASTA or SQN file | [NCBI TSA](https://www.ncbi.nlm.nih.gov/genbank/tsa/)
