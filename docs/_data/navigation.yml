@@ -1,6 +1,6 @@
-docs:
+main:
   - title: 'Home'
-    url: /index
+    url: /index/
   - title: 'Data Management Plans'
-    url: /dmp-template
+    url: /dmp-template/
     
