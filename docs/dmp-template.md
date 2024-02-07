@@ -146,7 +146,7 @@ Contact [Name] at [Phone/Email] for more information on data management. In the 
 ## Other DMP template options
 
 The [NOAA DMP Template in the Data Management Directives Handbook](https://sites.google.com/noaa.gov/noaa-data/handbook) has 8 required sections:  
-  1. General Description of Data to be Acquired and Managed
+  1. General Description of Data to be Acquired and Managed  
   2. Point of Contact for this Data Management Plan (author or maintainer)  
   3. Responsible Party for Data Management -- Who is responsible for ensuring the proper management of the data produced?  
   4. Resources -- Programs must identify resources within their own budget for managing the data they produce.  
