@@ -23,8 +23,8 @@ The NOAA Omics Data Management Plan Template is based loosely on the [NOAA Envir
 
 The template includes [bracketed descriptions] which should be overwritten, and <mark>highlighted examples</mark> which should be replaced with your own text.
 
-### 1. General Description of Data to be Managed  
-
+### 1. General Description of Data to be Acquired and Managed
+  
 #### 1.2 Project or data collection goal
 
 Paragraph describing the project or data collection goal.
@@ -56,11 +56,15 @@ This section is one of the most important ones of the DMP. Here we recommend pro
 
 Note, if you are also collecting physical, biological, and/or chemical observations of the environment it is recommended to list these and provide standards and instrumentation used.  
 
-There are other types of data or products that may be generated and should be described as well, such as research manuscripts, images, web portals, databases, and natural resource management plans to name a few.
+There are other types of data or products that may be generated and should be described as well, such as research manuscripts, images, web portals, databases, and natural resource management plans to name a few. 
 
-### 2. Point of Contact 
+#### 1.8 Are there any restricted designations for acquired data? 
 
-This person is often the project or program manager or their designee; someone who is familiar with the data management plan and the data being collected. 
+Use this section to list any restrictions or designations associated with the data, such as data ownership, international and national regulations, privacy regulations, etc.  
+
+### 2. Point of Contact for this Data Management Plan
+
+This person or persons is often the project or program manager or their designee; someone who is familiar with the data management plan and the data being collected. Add as many people as needed.
 
 
 ### 3. Data Management Workflow 
@@ -110,7 +114,7 @@ What types of processed ‘omics data will be generated? Where will it be stored
 
 What format is your analysis metadata (eg, scripts, details on analysis workflow)? Where will it be stored and how will it be backed up? How will these data be made publicly available? How will these data be associated with raw data and sample data?
 
-### 4. Quality Control
+##### 3.7  Quality control procedures employed 
 
 Quality control procedures should be applied to the raw data, analyzed results, and the sample metadata prior to make these publically accessible. Examples of quality control procedures: 
 
@@ -119,6 +123,12 @@ Quality control procedures should be applied to the raw data, analyzed results, 
 - comparisons made with other independent sources of the same measurement;
 - blanks or controls used during molecular processing to identify contamination
 - filtering of samples or omics data prior to making publicly accessible
+
+### 4. Data Access
+
+##### 4.1 Are there any restrictions on access or use of the data?   
+
+Restrictions may include PII and other sensitive data (export controlled data) and data restricted by contract or other written, binding agreement (permitted to be withheld under the Evidence Act) including commercial data licensed via contract, data obtained from another third party subject to a restrictive license (international partner, CRADA, etc.)  
 
 ### 5. Data Preservation and Protection
 
