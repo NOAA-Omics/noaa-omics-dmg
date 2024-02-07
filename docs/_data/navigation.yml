@@ -1,6 +1,18 @@
 main:
   - title: 'Home'
-    url: /index/
+    url: /
   - title: 'Data Management Plans'
-    url: /dmp-template/
+    url: /dmp-template
+  - title: 'Study Data Templates'
+    url: /study-data-templates
+  - title: 'Metadata Guidelines'
+    url: /metadata-guidelines
+  - title: 'Omics Data Guidelines'
+    url: /omics-data-guidelines
+  - title: 'Metadata Guidelines'
+    url: /metadata-guidelines
+  - title: 'Open Science Principles'
+    url: /open-science
+  - title: 'Contributors'
+    url: /contributors
     
