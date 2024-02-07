@@ -1,14 +1,15 @@
-defaults:
- - scope:
-   path: ""
-   type: main
-  values:
-   sidebar:
-    nav: "main"
-
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: NOAA Omics Data Management Guide
 description: [A short description of your site's purpose]
+
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
