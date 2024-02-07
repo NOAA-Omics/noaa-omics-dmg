@@ -1,15 +1,23 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 title: NOAA Omics Data Management Guide
 description: [A short description of your site's purpose]
+
+minimal_mistakes_skin: default
+search: true
 
 defaults:
   # _docs
   - scope:
       path: ""
-      type: docs
+      type: main
     values:
       sidebar:
-        nav: "docs"
+        nav: "main"
