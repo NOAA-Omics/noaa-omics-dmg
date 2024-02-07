@@ -1,7 +1,7 @@
 Data Management Plans
 =====
 
-This guide is to help prepare a Data Management Plan (DMP), using the [NOAA Omics Data Management Plan Template](https://github.com/NOAA-Omics/noaa-omics-templates/blob/main/data-management-plan-template/NOAA%20'Omics%20DMP%20Template%20v1.0.docx) provided in the [noaa-omics-templates Github repository](https://github.com/NOAA-Omics/noaa-omics-templates/). DMPs are often required by internal and external funding programs, and will soon be required of all NOAA projects by NOAA Management of Environmental Data and Information directives. Beyond these requirements, **DMPs are also valuable tools for developing internal and external data management workflows.**  
+This guide is to help prepare a Data Management Plan (DMP), using the [NOAA Omics Data Management Plan Template](https://github.com/NOAA-Omics/noaa-omics-templates/blob/main/data-management-plan-template/NOAA%20'Omics%20DMP%20Template%20v1.1.docx) provided in the [noaa-omics-templates Github repository](https://github.com/NOAA-Omics/noaa-omics-templates/). DMPs are often required by internal and external funding programs, and will soon be required of all NOAA projects by NOAA Management of Environmental Data and Information directives. Beyond these requirements, **DMPs are also valuable tools for developing internal and external data management workflows.**  
 
 ## What organizational level should I write my DMP?
 DMPs can be made at the level of:  
