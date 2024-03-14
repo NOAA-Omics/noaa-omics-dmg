@@ -112,7 +112,7 @@ OBIS also has a free self-paced [course](https://oceanexpert.org/event/3983) for
 
 ### Metadata standards
 
-Environmental metadata should be formatted according to one or more of the following standards: 
+Environmental metadata should be formatted according to one or more of the following standards:  
 * Water samples (NOAA Omics standard): [Study Data template - Water](https://docs.google.com/spreadsheets/d/1YBXFU9PuMqm7IT1tp0LTxQ1v2j0tlCWFnhSpy-EBwPw/edit?usp=sharing)
 * General ’omics projects: [Genomics Standards Consortium (GSC) Minimum Information about any (x) Sequence (MIxS)](https://gensc.org/mixs/).
 * OAP-funded projects: [Ocean Acidification Data Stewardship (OADS)](https://www.ncei.noaa.gov/products/ocean-acidification-data-stewardship) metadata guidelines.
