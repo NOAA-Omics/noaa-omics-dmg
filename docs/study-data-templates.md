@@ -5,12 +5,14 @@ Use the Table of Contents on the left to navigate to relevant sections for your 
 
 # NOAA Omics Study Data Templates
 
-A new NOAA Omics study data template was developed based on feedback from NOAA partners at OAR and the NOAA Omics Data and Bioinformatics Supergroup. This template incorporates data standards from [MIxS](https://genomicsstandardsconsortium.github.io/mixs/), [Darwin Core](https://dwc.tdwg.org/terms/), and custom recommended NOAA fields to facilitate data management of eDNA survey samples, from project initiation through data submission. For guidance on using the template, check out the template's `README` page or the [documentation wiki](). Additional templates are in development to cover other data types and environments. If you are interested in developing a NOAA Omics template for your data/environment type, please reach out to katherine.silliman@noaa.gov!
- <!-- change this to Read the Docs -->  
+[Documentation site here!](https://noaa-omics-templates.readthedocs.io/en/latest/)
+
+A new NOAA Omics study data template was developed based on feedback from NOAA partners at OAR and the NOAA Omics Data and Bioinformatics Supergroup. This template incorporates data standards from [MIxS](https://genomicsstandardsconsortium.github.io/mixs/), [Darwin Core](https://dwc.tdwg.org/terms/), and custom recommended NOAA fields to facilitate data management of eDNA survey samples, from project initiation through data submission. For guidance on using the template, check out the template's `README` page or the [documentation wiki](https://noaa-omics-templates.readthedocs.io/en/latest/). Additional templates are in development to cover other data types and environments. If you are interested in developing a NOAA Omics template for your data/environment type, please reach out to katherine.silliman@noaa.gov!
 
 * **[NOAA_MIMARKS.survey.water.template](https://docs.google.com/spreadsheets/d/1YBXFU9PuMqm7IT1tp0LTxQ1v2j0tlCWFnhSpy-EBwPw/edit?usp=sharing)**: use for amplicon and/or metagenomic data from water environmental samples 
   + [Filled out example NOAA_MIMARKS template](https://docs.google.com/spreadsheets/d/1b7m5u7Cqj-L6vJYk81CHHDNNXftr3JRNCpGgcVJtCEE/edit?usp=sharing)
 * **[NOAA_MIMARKS.survey.host-associated.template](https://docs.google.com/spreadsheets/d/1JtWgX_t5PbG0CpEJWHu906yH8Udek3l4I-KOM80MR6M/edit?usp=sharing)**: use for amplicon and/or metagenomic data from host-associated samples
+*  **[NOAA_MIMARKS.survey.sediment.template](https://docs.google.com/spreadsheets/d/1yF0M58huJKozVp7WObjWOQCH01rjf9Z-g9ykwyLkeSg/edit?usp=drive_link)**: use for amplicon and/or metagenomic data from sediment samples
 
 # Other templates for DNA/RNA sequence data
 
