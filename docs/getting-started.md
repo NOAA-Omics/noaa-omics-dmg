@@ -3,9 +3,9 @@ Getting Started
 
 ## Key Requirements for Omics Data 
 
-In accordance with the [NOAA Plan for Increasing Public Access to Research Results (PARR)](https://www.glerl.noaa.gov/review2016/reviewer_docs/NOAA_PARR_Plan_v5.04.pdf), NOAA-funded digitally formatted scientific data must be made publicly visible and accessible in a timely manner, in a machine-readable format using non-proprietary standards, and with the metadata necessary to find and properly use the data.  
+In accordance with the [NOAA Plan for Increasing Public Access to Research Results (PARR)](https://www.glerl.noaa.gov/review2016/reviewer_docs/NOAA_PARR_Plan_v5.04.pdf) and the new [NAO 212-15B Data Management Handbook](https://sites.google.com/noaa.gov/noaa-data/handbook), NOAA-funded digitally formatted scientific data must be made publicly visible and accessible in a timely manner, in a machine-readable format using non-proprietary standards, and with the metadata necessary to find and properly use the data.  
 
-To meet these requirements, every NOAA Omics project should have a Data Management Plan. At **minimum** a data management plan should include:  
+To meet these requirements, every NOAA Omics project should have a Data Management Plan. The Data Management requirements are listed below:  
 
 1. Fill out a **[Data Management Plan template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html)** to describe your [data management workflow](https://noaa-omics-dmg.readthedocs.io/en/latest/getting-started.html#data-management-workflow). 
 2. **Omics Data Guidelines:** Submission of [omics data](https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html) to the appropriate public data repository (e.g., raw sequence data to NCBI).
@@ -24,7 +24,7 @@ A successful data management workflow will contain the following steps:
 * **Identify your data type(s)** – The types of omics data you generate (e.g., amplicon, metagenomic, proteomic) dictate [which standards are available](https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html) and some of the metadata you'll want to collect (e.g., the sample preparation data).
 * **Identify your environment(s)** – If your samples came from the environment (e.g., seawater) or an environmental system (mesocosm), there are specific parameters you'll want to collect (e.g., temperature, salinity). If your samples are from an experimental system, you'll want to capture your experimental factors and possibly also ambient conditions.
 * **Locate checklists and templates** – Find the relevant [standards, checklists and templates](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html) for your data type(s) and environment(s). 
-* **Complete your metadata** – As soon as you have sample or experimental metadata, start recording it in the appropriate format. Make sure to backup original and formatted metadata files.
+* **Complete your metadata** – As soon as you have sample or experimental metadata, start recording it in the appropriate format. Make sure to backup original and formatted metadata files. NOAA's project metadata format requirement is ISO 19115-2.
 * **Identify (meta)data repositories** – List the relevant and required data and metadata repositories, then verify submission instructions and user accounts.
 * **Submit your data!** – Recommended timeline for submission is one year after the project end date (NOAA intramural PIs), two years after the project end (extramural PIs), or before a paper is published using these data (whichever is sooner). 
 
