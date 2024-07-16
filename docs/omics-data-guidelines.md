@@ -1,7 +1,7 @@
 Omics Data Guidelines
 ======
 
-Omics datasets should be sent to the relevant long-term data repository in accordance with the publication requirements of the field of study. While NCEI can be used to curate some small omics datasets (< ~20 GB), it is not easily searchable nor does it allow for critically important interactive querying (e.g., BLAST), and so should not be the lone repository for omics data if other options apply. Raw data (e.g., FASTQ files from the sequencing center) should be submitted to a repository for proper archiving. Data analysis products (e.g., MAG/genome assemblies) are useful to the scientific community, and should be submitted to relevant repositories. We offer guidelines for archival locations for omics datasets below and in [Table 2] (https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html#formats-for-processed-omics-data).
+Omics datasets should be sent to the relevant long-term data repository in accordance with the publication requirements of the field of study. While NCEI can be used to curate some small omics datasets (< ~20 GB), it is not easily searchable nor does it allow for critically important interactive querying (e.g., BLAST), and so should not be the lone repository for omics data if other options apply. Raw data (e.g., FASTQ files from the sequencing center) should be submitted to a repository for proper archiving. Data analysis products (e.g., MAG/genome assemblies) are useful to the scientific community, and should be submitted to relevant repositories. We offer guidelines for archival locations for omics datasets below and in [Table 2](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html#formats-for-processed-omics-data).
 
 ## Repositories
 

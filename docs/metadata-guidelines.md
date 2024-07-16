@@ -5,7 +5,7 @@ Metadata are contextual data about your experimental data. Metadata are the who,
 
 For an 'omics study, metadata exist at multiple stages along the path from samples to analysis. For example, contextual information about when and where the sample was collected could include descriptors like date, time, and geospatial coordinates. Processing the sample in the lab for analysis requires different protocols and instrumentation. Once these data become electronic and are analyzed, the results should be accompanied by the versioned software used.
 
-Metadata can also refer to information about the study itself and where the data can be found (both online and offline) in order for potential users to discover, access, evaluate, and use the data. Metadata of this type is required by the [NOAA Data Documentation Procedural Directive](https://nosc.noaa.gov/EDMC/PD.DD.php) and should be hosted by NCEI.  
+Metadata can also refer to information about the study itself and where the data can be found (both online and offline) in order for potential users to discover, access, evaluate, and use the data. Metadata of this type is required by the [NOAA Data Management Handbook](https://sites.google.com/noaa.gov/noaa-data/handbook) and should be hosted by NCEI.  
 
 ## Categories of metadata
 
@@ -108,19 +108,20 @@ OBIS also has a free self-paced [course](https://oceanexpert.org/event/3983) for
 * Ocean acidification (OA) data generated through the Ocean Acidification Program (OAP) should be submitted to a special section of NCEI, the [Ocean Acidification Data Stewardship (OADS) Project](http://www.nodc.noaa.gov/oceanacidification).  
 * Coral and coral reef data should be sent to NCEI, where it will then be posted on NCEI and referenced/cross-listed by NOAA’s [Coral Reef Information System (CoRIS)](https://www.coris.noaa.gov/).
 * [Earth Science Information Partners (ESIP)](https://www.esipfed.org/esip-endorsed) Biological Data Standards.  
-* [International Organization for Standardization (ISO)](https://www.iso.org/) standards with guidance from NOAA’s [National Geophysical Data Center (NGDC)](https://www.ngdc.noaa.gov/wiki/index.php/MI_Metadata).
+* [International Organization for Standardization (ISO)](https://www.iso.org/) standards with guidance from NOAA’s [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/).
 
 ### Metadata standards
 
 Environmental metadata should be formatted according to one or more of the following standards:  
+* [ISO I9115-2](https://www.ncei.noaa.gov/sites/default/files/2020-04/ISO%2019115-2%20Workbook_Part%20II%20Extentions%20for%20imagery%20and%20Gridded%20Data.pdf)
 * Water samples (NOAA Omics standard): [Study Data template - Water](https://docs.google.com/spreadsheets/d/1YBXFU9PuMqm7IT1tp0LTxQ1v2j0tlCWFnhSpy-EBwPw/edit?usp=sharing)
-* General ’omics projects: [Genomics Standards Consortium (GSC) Minimum Information about any (x) Sequence (MIxS)](https://gensc.org/mixs/).
-* OAP-funded projects: [Ocean Acidification Data Stewardship (OADS)](https://www.ncei.noaa.gov/products/ocean-acidification-data-stewardship) metadata guidelines.
+* General ’omics projects: [Genomics Standards Consortium (GSC) Minimum Information about any (x) Sequence (MIxS)](https://github.com/GenomicsStandardsConsortium/mixs/wiki).
+* OAP-funded projects: [Ocean Acidification Data Stewardship (OADS)](https://www.ncei.noaa.gov/products/ocean-carbon-acidification-data-system) metadata guidelines.
 * Additional guidance from [ENA](https://ena-docs.readthedocs.io/) (European Nucleotide Archive), including [The ENA Metadata Model — ENA Training Modules 1 documentation](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html) and [Reporting Missing Values — ENA Training Modules 1 documentation](https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html). 
 
 ### Timing of submission
 
-The suggested deadline for data to be published and accessible in NCEI is one year after the end date of the project for NOAA intramural PIs, two years after the end date of the project for extramural PIs, or before a paper is published using these data (whichever is sooner). This schedule is based on the [OAP Data Management Agreement](https://www.ncei.noaa.gov/products/ocean-acidification-data-stewardship).  
+The suggested deadline for data to be published and accessible in NCEI is one year after the end date of the project for NOAA intramural PIs, two years after the end date of the project for extramural PIs, or before a paper is published using these data (whichever is sooner). This schedule is based on the [OAP Data Management Agreement](https://www.ncei.noaa.gov/products/ocean-carbon-acidification-data-system).  
 
 **Point of contact for submissions**: The PI is responsible for working with NCEI to publish the data in a timely manner.  
 
@@ -135,6 +136,6 @@ Metadata standards
   + [Biosample Attributes](https://www.ncbi.nlm.nih.gov/biosample/docs/attributes/)
   + [BeBOP-OBON Protocol Collection Template](https://github.com/BeBOP-OBON/0_protocol_collection_template)
   + [BeBOP-OBON Minimum Information about an Omics Protocol](https://github.com/BeBOP-OBON/miop)
-  + [GBWG - Sustainable DarwinCore MIxS Interoperability - TDWG](https://www.tdwg.org/community/gbwg/MIxS/)
+  + [GBWG - Sustainable DarwinCore MIxS Interoperability - TDWG](https://www.tdwg.org/community/gbwg/mixs/)
   + [GenBank templates](https://submit.ncbi.nlm.nih.gov/templates/)
   + [NIH tool to format all types of metadata](https://metagenote.niaid.nih.gov/)
