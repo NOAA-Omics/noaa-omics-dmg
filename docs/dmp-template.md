@@ -1,7 +1,7 @@
 Data Management Plans
 =====
 
-This guide is to help prepare a Data Management Plan (DMP), using the [NOAA Omics Data Management Plan Template](https://github.com/NOAA-Omics/noaa-omics-templates/tree/main/data-management-plan-template) provided in the [noaa-omics-templates Github repository](https://github.com/NOAA-Omics/noaa-omics-templates/). Those with NOAA accounts can access [this Google Docs version](https://docs.google.com/document/d/1vBXxkYkOvSdERUy0Y44LK78gT7Rop9B7/edit?usp=sharing&ouid=110754729138913368705&rtpof=true&sd=true). DMPs are often required by internal and external funding programs, and will soon be required of all NOAA projects by NOAA Management of Environmental Data and Information directives. Beyond these requirements, **DMPs are also valuable tools for developing internal and external data management workflows.**  
+This guide is to help prepare a Data Management Plan (DMP), using the [NOAA Omics Data Management Plan Template (v1.2)](https://github.com/NOAA-Omics/noaa-omics-templates/tree/main/data-management-plan-template) provided in the [noaa-omics-templates Github repository](https://github.com/NOAA-Omics/noaa-omics-templates/). Those with NOAA accounts can access [this Google Docs version](https://docs.google.com/document/d/1oACK92Gnb_39V4qQihEjS7gPtlT77bad/edit?usp=sharing&ouid=110754729138913368705&rtpof=true&sd=true). DMPs are often required by internal and external funding programs, and will soon be required of all NOAA projects by NOAA Management of Environmental Data and Information directives. Beyond these requirements, **DMPs are also valuable tools for developing internal and external data management workflows.**  
 
 ## What organizational level should I write my DMP?
 DMPs can be made at the level of:  
@@ -136,7 +136,7 @@ We recommend bullet points or a table with rows for each data type, including th
 
 ### 6. Resources
 
-Programs must identify resources within their own budget for managing the data they produce.
+Programs must identify resources within their own budget for managing the data they produce. 
 
 ## Short DMP Template for proposals
 Some NOAA proposals require a DMP that is no more than 2 pages. The full NOAA Omics DMP can be adapted using this template:
