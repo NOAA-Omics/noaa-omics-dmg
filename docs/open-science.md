@@ -51,8 +51,6 @@ Understand the licenses associated with data when submitted to repositories, and
 
 ### Machine readability
 
-* A [Primer on Machine Readability](https://data.gov/developers/blog/primer-machine-readability-online-documents-and-data/index.html) outlines various data types and file formats, as well as how and why they should be machine readable. 
-
 </br>
 
 ## Government mandates
