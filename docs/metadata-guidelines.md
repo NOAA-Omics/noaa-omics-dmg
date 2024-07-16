@@ -5,7 +5,7 @@ Metadata are contextual data about your experimental data. Metadata are the who,
 
 For an 'omics study, metadata exist at multiple stages along the path from samples to analysis. For example, contextual information about when and where the sample was collected could include descriptors like date, time, and geospatial coordinates. Processing the sample in the lab for analysis requires different protocols and instrumentation. Once these data become electronic and are analyzed, the results should be accompanied by the versioned software used.
 
-Metadata can also refer to information about the study itself and where the data can be found (both online and offline) in order for potential users to discover, access, evaluate, and use the data. Metadata of this type is required by the [NOAA Data Documentation Procedural Directive](https://nosc.noaa.gov/EDMC/PD.DD.php) and should be hosted by NCEI.  
+Metadata can also refer to information about the study itself and where the data can be found (both online and offline) in order for potential users to discover, access, evaluate, and use the data. Metadata of this type is required by the [NOAA Data Management Handbook](https://sites.google.com/noaa.gov/noaa-data/handbook) and should be hosted by NCEI.  
 
 ## Categories of metadata
 
@@ -108,7 +108,7 @@ OBIS also has a free self-paced [course](https://oceanexpert.org/event/3983) for
 * Ocean acidification (OA) data generated through the Ocean Acidification Program (OAP) should be submitted to a special section of NCEI, the [Ocean Acidification Data Stewardship (OADS) Project](http://www.nodc.noaa.gov/oceanacidification).  
 * Coral and coral reef data should be sent to NCEI, where it will then be posted on NCEI and referenced/cross-listed by NOAA’s [Coral Reef Information System (CoRIS)](https://www.coris.noaa.gov/).
 * [Earth Science Information Partners (ESIP)](https://www.esipfed.org/esip-endorsed) Biological Data Standards.  
-* [International Organization for Standardization (ISO)](https://www.iso.org/) standards with guidance from NOAA’s [National Geophysical Data Center (NGDC)](https://www.ngdc.noaa.gov/wiki/index.php/MI_Metadata).
+* [International Organization for Standardization (ISO)](https://www.iso.org/) standards with guidance from NOAA’s [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/).
 
 ### Metadata standards
 
