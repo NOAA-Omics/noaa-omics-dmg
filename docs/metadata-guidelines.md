@@ -95,9 +95,11 @@ Send metadata and environmental data to the [National Centers for Environmental 
 
 ### Submitting to biodiversity repositories (OBIS/GBIF)
 
-[GBIF](https://www.gbif.org/) and [OBIS](https://obis.org/) are global repositories of biodiversity data, and are actively interested in expanding access to eDNA observations. OBIS has the benefit of submitting data to NCEI for you. 
+[GBIF](https://www.gbif.org/) and [OBIS](https://obis.org/) are global repositories of biodiversity data, and are actively interested in expanding access to eDNA observations. OBIS has the benefit of archiving data to NCEI for you. 
 
-NOAA Omics has developed a Python workflow for preparing data for submission to OBIS/GBIF, called [edna2obis](https://github.com/aomlomics/edna2obis). 
+NOAA Omics has developed a Python workflow for preparing data for submission to OBIS/GBIF, called [edna2obis](https://github.com/aomlomics/edna2obis). This workflow requires some familiarity with Jupyter Notebooks and Python.
+
+GBIF also has a non-coding [prototype GUI tool](https://edna-tool.gbif-uat.org/) to prepare eDNA data for GBIF/OBIS.  
 
 For general guidance on preparing data for OBIS/GBIF, check out the guide entitled "[Publishing DNA-derived data through biodiversity data platforms](https://docs.gbif.org/publishing-dna-derived-data/en/)."
 
