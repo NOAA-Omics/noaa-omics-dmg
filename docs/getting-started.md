@@ -26,6 +26,8 @@ A successful data management workflow will contain the following steps:
 * **Locate checklists and templates** – Find the relevant [standards, checklists and templates](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html) for your data type(s) and environment(s). 
 * **Complete your metadata** – As soon as you have sample or experimental metadata, start recording it in the appropriate format. Make sure to backup original and formatted metadata files. NOAA's project metadata format requirement is ISO 19115-2.
 * **Identify (meta)data repositories** – List the relevant and required data and metadata repositories, then verify submission instructions and user accounts.
-* **Submit your data!** – Recommended timeline for submission is one year after the project end date (NOAA intramural PIs), two years after the project end (extramural PIs), or before a paper is published using these data (whichever is sooner). 
+* **Share and archive your code** -  If your project includes code, make it publically available on services like Github, [include a license](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository), and archive it using a data archive tool like [Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+* **Submit your data!** – Recommended timeline for submission is one year after the project end date (NOAA intramural PIs), two years after the project end (extramural PIs), or before a paper is published using these data (whichever is sooner).
+
 
 
