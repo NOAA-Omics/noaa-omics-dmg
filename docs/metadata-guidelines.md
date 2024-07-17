@@ -89,6 +89,10 @@ NOAA ’Omics projects should make their metadata and non-’omics data (non-“
 Can we submit metadata to BioSample without sequence data?
 \!-->
 
+### Use GCMD keywords in project metadata  
+
+Whenever you submit metadata about a project to a repository, if there is a field for keywords we recommend using a controlled vocabulary such as the [Omics terms in the NASA Global Change Master Directory (GCMD)](https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/8eb84f36-f355-458b-889f-b37cfa120654?gtm_keyword=OMICS&gtm_scheme=Earth%20Science). GCMD keywords are a hierarchical set of controlled Earth Science vocabularies that help ensure Earth science data, services, and variables are described in a consistent and comprehensive manner and allow for the precise searching of metadata and subsequent retrieval of data, services, and variables. 
+
 ### NCEI
 
 Send metadata and environmental data to the [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/), generally excluding ’omics data, as these large datasets should be stored in the relevant [long-term data repository](https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html#table-1-data-repositories) and linked from NCEI to those records with persistent identifiers. Although NCEI can curate ’omics datasets smaller than 20 GB (i.e., most proteomic and metabolomic datasets), it does not permit the critically important interactive querying feature that is integral to all ’omics-tailored data repositories and so should not be the lone repository for ’omics data. We highly recommend submitting metabarcoding ASV tables to OBIS/GBIF (see next section).
