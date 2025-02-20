@@ -24,6 +24,7 @@ nav:
   - 'Omics Data Guidelines': 'omics-data-guidelines.md'
   - 'Open Science Principles': 'open-science.md'
   - 'Contributors': 'contributors.md'
+  - 'Citation': 'citation.md'
 use_directory_urls: false
 markdown_extensions:
   - toc:
