@@ -1,31 +1,31 @@
-Study Data Templates
-======
+# Study Data Templates
 
 Use the Table of Contents on the left to navigate to relevant sections for your 'omics data types!
 
-# eDNA Study Data Templates
+## eDNA Study Data Templates
 
 For eDNA projects (metabarcoding and/or targeted species detection/qPCR), we strongly recommend using terms from the [FAIR eDNA (FAIRe) metadata checklist](https://fair-edna.github.io/index.html), which was developed through broad international discussions and incorporates incorporates data standards from [MIxS](https://genomicsstandardsconsortium.github.io/mixs/), [Darwin Core](https://dwc.tdwg.org/terms/), and newly developed fields specific to eDNA data. 
 
 The definitive, most up-to-date resource on the [FAIRe project](https://fair-edna.github.io/index.html) is the project website, but some links are summarized below.  
 
-To help facilitate adoption of these terms and general data management of eDNA survey samples, Excel and Google Sheets templates have been developed, including code to generate a template specific to your sample environment and assay type:  
-* [Generic Excel FAIRe template](https://fair-edna.github.io/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx)
-* [FAIRe-ator](https://github.com/FAIR-eDNA/FAIRe-ator/tree/main): R script to generate customized Excel FAIRe templates 
-* [FAIReSheets](https://github.com/aomlomics/FAIReSheets): Python script to generate customized Google Sheets FAIRe templates 
+To help facilitate adoption of these terms and general data management of eDNA survey samples, Excel and Google Sheets templates have been developed, including code to generate a template specific to your sample environment and assay type:
 
-# Other templates for DNA/RNA sequence data
+- [Generic Excel FAIRe template](https://fair-edna.github.io/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx)
+- [FAIRe-ator](https://github.com/FAIR-eDNA/FAIRe-ator/tree/main): R script to generate customized Excel FAIRe templates
+- [FAIReSheets](https://github.com/aomlomics/FAIReSheets): Python script to generate customized Google Sheets FAIRe templates
+
+## Other templates for DNA/RNA sequence data
 
 **While the templates below provide some information on metadata formatting and support the minimum metadata required for submission to NCBI, we provide additional formatting guidance and recommended custom metadata fields on the [Metadata Guidelines page](https://noaa-omics-dmg.readthedocs.io/en/latest/metadata-guidelines.html#metadata-formats-and-custom-fields).**
 
-## Sample metadata templates
+### Sample metadata templates
 
 Genomic Standards Consortium (GSC) Minimal Information about any (x) Sequence (MIxS) templates are the standard for sample metadata, which includes information about the primary sample: when it was collected (e.g., date and time), where it was collected from (e.g., latitude, longitude, elevation/depth, site name, country, etc.), what kind of sample it was (e.g., soil, seawater, feces), and the properties of the environment during collection (e.g., temperature, salinity, pH) or experimental condition (e.g., experimental or control, disease state) from which the sample was taken. 
 
 Metadata input templates:
 
-* NCBI provides a [useful link](https://submit.ncbi.nlm.nih.gov/biosample/template/) to download MIxS sample metadata templates based on your sequence data type and sample environment (known as 'packages'). These templates will be appropriate for the majority of NOAA 'Omics projects that generate DNA/RNA sequence data, and can be used to **generate NCBI BioSamples**. The [NOAA Omics study data template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html#noaa-omics-study-data-templates) includes a `sample_data' sheet that can be used for submission to NCBI BioSample.
-* The National Microbiome Data Collaborative (NMDC) maintains the [NMDC Submission Portal](https://data.microbiomedata.org/submission/home) that allows inputing metadata with real-time validation. The submission portal supports several different community standards, such as the MIxS standard from GSC, the PROV standard for provenance metadata, the Proteomics Standards Initiative (PSI) standards for metaproteomics, and the Metabolomics Standards Initiative (MSI) standards for metabolomics. 
+- NCBI provides a [useful link](https://submit.ncbi.nlm.nih.gov/biosample/template/) to download MIxS sample metadata templates based on your sequence data type and sample environment (known as 'packages'). These templates will be appropriate for the majority of NOAA 'Omics projects that generate DNA/RNA sequence data, and can be used to **generate NCBI BioSamples**. The [NOAA Omics study data template](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html#noaa-omics-study-data-templates) includes a `sample_data' sheet that can be used for submission to NCBI BioSample.
+- The National Microbiome Data Collaborative (NMDC) maintains the [NMDC Submission Portal](https://data.microbiomedata.org/submission/home) that allows inputing metadata with real-time validation. The submission portal supports several different community standards, such as the MIxS standard from GSC, the PROV standard for provenance metadata, the Proteomics Standards Initiative (PSI) standards for metaproteomics, and the Metabolomics Standards Initiative (MSI) standards for metabolomics. 
 
 A guide to choosing the right metadata package given your 'omics data type is below:  
 
@@ -46,7 +46,7 @@ A guide to choosing the right metadata package given your 'omics data type is be
 
 For most NOAA 'Omics projects, the `water` or `sediment` environmental packages will be appropriate.
 
-## Preparation metadata templates 
+### Preparation metadata templates 
 
 Preparation metadata is directly related to the preparation of the biomaterial undergoing the 'omics assay and the process of performing the assay. A primary sample could be split (aliquoted) and processed through multiple preparation methods; therefore, there could be multiple sets of preparation metadata for a single set of samples.  
 
@@ -59,17 +59,17 @@ Projects using high-throughput sequencing data (e.g., amplicon, metagenomic, RNA
 **Sanger sequencing**
 
 Sequencing projects generated without high-throughput sequencing (e.g., single gene Sanger sequencing) can use the [NCBI Genbank template](https://submit.ncbi.nlm.nih.gov/about/bankit/).  
-  
 
-# Other omics data types
+## Other omics data types
 
 For NOAA Omics projects that generate biological data other than DNA/RNA sequencing:
 
-## Targeted quantitative surveys (qPCR, ddPCR, rt-PCR)
+### Targeted quantitative surveys (qPCR, ddPCR, rt-PCR)
 
 While we recommend the [FAIRe checklist](https://fair-edna.github.io/index.html) for projects generating real time PCR, qPCR, or dPCR data, one can also use the Minimum Information for Publication of Quantitative Real-Time PCR Experiments (MIQE) [Real-time PCR Data Markup Language (RDML) template](https://rdml.org/index.html).
 
 Additional resources for best practices:
+
 1. Environmental Microbiology Minimum Information (EMMI) Guidelines [Borchardt et al. 2021](https://pubs.acs.org/doi/full/10.1021/acs.est.1c01767)
 2. The MIQE guidelines: minimum information for publication of quantitative real-time PCR experiments [Bustin et al. 2009](https://pubmed.ncbi.nlm.nih.gov/19246619/)
 3. Guidance on the Use of Targeted Environmental DNA (eDNA) Analysis for the
@@ -78,8 +78,7 @@ Management of Aquatic Invasive Species and Species at Risk from the Canadian Sci
 3. [Sanders et al. 2018](https://www.sciencedirect.com/science/article/pii/S2214753517302097)
 4. [Langlosi et al. 2021](https://onlinelibrary.wiley.com/doi/full/10.1002/edn3.164)
 
-
-## Proteomics
+### Proteomics
 
 | Sample Data | Required? | Definition or Example | Recommended Format | Repository |
 |---|---|---|---|---|
@@ -88,17 +87,16 @@ Management of Aquatic Invasive Species and Species at Risk from the Canadian Sci
 
 **Other options for repositories, as well as general data submission [guidelines](http://www.proteomexchange.org/docs/guidelines_px.pdf) can be found on the ([ProteomeXchange](https://www.proteomexchange.org/)) website.**
 
-## Metabolomics  
+### Metabolomics  
 
 | Sample Data | Required? | Definition or Example | Recommended Format | Repository |
 |---|---|---|---|---|
 |Raw NMR or MS data| Y | *NMR*: can be free induction decay (FID) or fourier transformed (FT) ; Should also include instrument and software versions.| Open Source Formats ([mzML](https://www.psidev.info/mzML), [mzXML](https://sashimi.sourceforge.net/schema_revision/mzXML_2.1/Doc/mzXML_2.1_tutorial.pdf), [CDF](https://cdf.gsfc.nasa.gov/))| [Metabolomics Workbench](https://www.metabolomicsworkbench.org/data/faq.php)|
 |Sequencing Data| N | Whole genome, Amplicon, Transcriptome | [FASTA](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/), [FASTQ](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/#:~:text=Fastq%20consists%20of%20a%20defline,There%20are%20many%20variations.) | [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)|
 
-# Formats for processed omics data
+## Formats for processed omics data
 
-If your 'omics data is processed using bioinformatics, the resulting file(s) from those analyses should also be archived. Below are suggested formats and destinations repositories for common environmental 'omics datasets.  
-
+If your 'omics data is processed using bioinformatics, the resulting file(s) from those analyses should also be archived. Below are suggested formats and destinations repositories for common environmental 'omics datasets.
 
 **Table 2.** Suggested formats and destinations repositories for common environmental omics datasets. Please note that, although NOAA's Coral Reef Information System ([CoRIS](https://www.coris.noaa.gov/CoRIS)) is the preferred venue for archiving NOAA-funded coral reef data, all CoRIS submissions are handled by NCEI.
 
@@ -119,6 +117,6 @@ Reference database | FASTA (sequences) and TSV (taxonomy) | [Zenodo](https://zen
 Analysis code | Commented code and Jupyter notebooks | GitHub (optionally archived on [Zenodo](https://zenodo.org/) or [FigShare](https://figshare.com/) or [Dryad](https://datadryad.org/stash))
 Figure code   | Commented code for recreating figures (R, etc) | GitHub (optionally archived on [Zenodo](https://zenodo.org/) or [FigShare](https://figshare.com/) or [Dryad](https://datadryad.org/stash))
 
-# Legacy NOAA Omics Templates  
+## Legacy NOAA Omics Templates  
 
 For information on previously developed versions of NOAA Omics study data templates, check out the [documentation site here!](https://noaa-omics-templates.readthedocs.io/en/latest/). While these tremplates are still available for use, they are no longer actively supported and we recommend the FAIRe formats mentioned above for broader standardization.
