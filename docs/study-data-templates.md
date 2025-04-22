@@ -3,16 +3,16 @@ Study Data Templates
 
 Use the Table of Contents on the left to navigate to relevant sections for your 'omics data types!
 
-# NOAA Omics Study Data Templates
+# eDNA Study Data Templates
 
-[Documentation site here!](https://noaa-omics-templates.readthedocs.io/en/latest/)
+For eDNA projects (metabarcoding and/or targeted species detection/qPCR), we strongly recommend using terms from the [FAIR eDNA (FAIRe) metadata checklist](https://fair-edna.github.io/index.html), which was developed through broad international discussions and incorporates incorporates data standards from [MIxS](https://genomicsstandardsconsortium.github.io/mixs/), [Darwin Core](https://dwc.tdwg.org/terms/), and newly developed fields specific to eDNA data. 
 
-A new NOAA Omics study data template was developed based on feedback from NOAA partners at OAR and the NOAA Omics Data and Bioinformatics Supergroup. This template incorporates data standards from [MIxS](https://genomicsstandardsconsortium.github.io/mixs/), [Darwin Core](https://dwc.tdwg.org/terms/), and custom NOAA-recommended fields to facilitate data management of eDNA survey samples, from project initiation through data submission. For guidance on using the template, check out the template's `README` page or the [documentation wiki](https://noaa-omics-templates.readthedocs.io/en/latest/). Additional templates are in development to cover other data types and environments. If you are interested in developing a NOAA Omics template for your data/environment type, please reach out to katherine.silliman@noaa.gov!
+The definitive, most up-to-date resource on the [FAIRe project](https://fair-edna.github.io/index.html) is the project website, but some links are summarized below.  
 
-* **[NOAA_MIMARKS.survey.water.template](https://docs.google.com/spreadsheets/d/1YBXFU9PuMqm7IT1tp0LTxQ1v2j0tlCWFnhSpy-EBwPw/edit?usp=sharing)**: use for amplicon and/or metagenomic data from water environmental samples 
-  + [Filled out example NOAA_MIMARKS template](https://docs.google.com/spreadsheets/d/1b7m5u7Cqj-L6vJYk81CHHDNNXftr3JRNCpGgcVJtCEE/edit?usp=sharing)
-* **[NOAA_MIMARKS.survey.host-associated.template](https://docs.google.com/spreadsheets/d/1JtWgX_t5PbG0CpEJWHu906yH8Udek3l4I-KOM80MR6M/edit?usp=sharing)**: use for amplicon and/or metagenomic data from host-associated samples
-*  **[NOAA_MIMARKS.survey.sediment.template](https://docs.google.com/spreadsheets/d/1yF0M58huJKozVp7WObjWOQCH01rjf9Z-g9ykwyLkeSg/edit?usp=drive_link)**: use for amplicon and/or metagenomic data from sediment samples
+To help facilitate adoption of these terms and general data management of eDNA survey samples, Excel and Google Sheets templates have been developed, including code to generate a template specific to your sample environment and assay type:  
+* [Generic Excel FAIRe template](https://fair-edna.github.io/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx)
+* [FAIRe-ator](https://github.com/FAIR-eDNA/FAIRe-ator/tree/main): R script to generate customized Excel FAIRe templates 
+* [FAIReSheets](https://github.com/aomlomics/FAIReSheets): Python script to generate customized Google Sheets FAIRe templates 
 
 # Other templates for DNA/RNA sequence data
 
@@ -67,7 +67,7 @@ For NOAA Omics projects that generate biological data other than DNA/RNA sequenc
 
 ## Targeted quantitative surveys (qPCR, ddPCR, rt-PCR)
 
-Projects generated with real time PCR, qPCR, or dPCR and can use the Minimum Information for Publication of Quantitative Real-Time PCR Experiments (MIQE) [Real-time PCR Data Markup Language (RDML) template](https://rdml.org/index.html).
+While we recommend the [FAIRe checklist](https://fair-edna.github.io/index.html) for projects generating real time PCR, qPCR, or dPCR data, one can also use the Minimum Information for Publication of Quantitative Real-Time PCR Experiments (MIQE) [Real-time PCR Data Markup Language (RDML) template](https://rdml.org/index.html).
 
 Additional resources for best practices:
 1. Environmental Microbiology Minimum Information (EMMI) Guidelines [Borchardt et al. 2021](https://pubs.acs.org/doi/full/10.1021/acs.est.1c01767)
@@ -119,3 +119,6 @@ Reference database | FASTA (sequences) and TSV (taxonomy) | [Zenodo](https://zen
 Analysis code | Commented code and Jupyter notebooks | GitHub (optionally archived on [Zenodo](https://zenodo.org/) or [FigShare](https://figshare.com/) or [Dryad](https://datadryad.org/stash))
 Figure code   | Commented code for recreating figures (R, etc) | GitHub (optionally archived on [Zenodo](https://zenodo.org/) or [FigShare](https://figshare.com/) or [Dryad](https://datadryad.org/stash))
 
+# Legacy NOAA Omics Templates  
+
+For information on previously developed versions of NOAA Omics study data templates, check out the [documentation site here!](https://noaa-omics-templates.readthedocs.io/en/latest/). While these tremplates are still available for use, they are no longer actively supported and we recommend the FAIRe formats mentioned above for broader standardization.
