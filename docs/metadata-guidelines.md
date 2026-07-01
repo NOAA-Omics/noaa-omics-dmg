@@ -34,6 +34,143 @@ Metadata should be collated from primary sources (e.g., paper notes, emails, ext
 
 While templates from NCBI provide some information of formatting and support the minimum metadata required for submission, we highly recommend providing additional metadata following relevant standards such as [Darwin Core](https://dwc.tdwg.org/terms/) for biodiversity observations and [FAIRe](https://fair-edna.github.io/index.html) for eDNA data. Check out the [Study Data Templates](https://noaa-omics-dmg.readthedocs.io/en/latest/study-data-templates.html) section for templates to help use these terms. 
 
+## FAIRe eDNA Metadata Standards
+
+The [FAIRe (Findable, Accessible, Interoperable, Reusable) eDNA initiative](https://fair-edna.github.io/index.html) is an international, multi-organizational collaboration that has developed comprehensive metadata standards specifically for eDNA data. The FAIRe metadata checklist includes **337 data terms** organized into workflow sections such as sample collection, PCR, and bioinformatics, with terms classified as:
+
+- **38 mandatory terms** — required for all submissions
+- **51 highly recommended terms** — strongly encouraged for data quality
+- **128 recommended terms** — improve interoperability
+- **120 optional terms** — for specialized applications
+
+The FAIRe standard draws from established data sources including MIxS (Minimum Information about any Sequence), Darwin Core (for biodiversity data), MIQE guidelines (for quantitative PCR), MIEM guidelines (for eDNA metabarcoding), and 158 new terms developed specifically for eDNA procedures. This comprehensive approach ensures eDNA datasets are consistently documented, discoverable, and reusable across the scientific community, supporting data-driven biodiversity management at broad scales and enabling cross-discipline reuse.
+
+### Generating FAIRe Templates with FAIReSheets
+
+FAIReSheets is NOAA's Python-based tool for generating standardized eDNA metadata templates directly in Google Sheets, based on the FAIRe NOAA checklist (data dictionary). 
+
+**Key features:**
+
+- **Custom User-Defined Terms** — Add domain-specific fields to the checklist before template generation; these automatically appear in your Google Sheets
+- **Controlled Vocabularies** — Pre-defined vocabularies for many fields ensure consistent data entry and units of measure across the eDNA community
+- **Ready for Submission** — Generated templates are formatted for immediate submission to the Ocean DNA Explorer, and can also be adapted for OBIS and GBIF using the edna2obis tool
+
+**To access FAIReSheets:** This tool is available upon request. Contact bayden.willms@noaa.gov for access and guidance.
+
+The templates generated include metadata for:
+- **Project metadata** — overarching study information
+- **Sample metadata** — collection details and sample characteristics
+- **Experiment run metadata** — PCR and preparation procedures
+- **Analysis metadata** — bioinformatics processing and results
+
+### Filling in FAIRe Metadata Templates
+
+Once you have generated your templates through FAIReSheets, the next step is to populate them with your project data. This is a critical step to ensure your data is standardized, interoperable, and discoverable.
+
+**Best practices for completing templates:**
+
+1. **Link your records** — Use consistent project IDs, sample IDs, and analysis run names across all metadata files to establish relationships between data layers
+2. **Distinguish project vs. assay-specific data** — Some fields in project metadata apply to all analyses (marked in the project_level column), while others are assay-specific (e.g., "ssu16sv4v5-emp" or "ssu18sv9-emp")
+3. **Leverage controlled vocabularies** — Use the predefined terms and units provided in the checklist to maintain consistency
+4. **Document everything** — Even fields that seem obvious now may be unclear to future data users or collaborators
+5. **Validate before submission** — Check for inconsistencies, missing required fields, and formatting errors before uploading
+
+### Handling Missing Data (Dead Values)
+
+Data absence is common and occurs for many legitimate reasons — location information may be intentionally obscured to protect endangered species or culturally sensitive sites, certain measurements may not be applicable to a sample type, or data collection may have been missed due to circumstances beyond your control.
+
+For required fields that lack data, you must specify **why** the information is unavailable using the INSDC missing value controlled vocabulary. This practice is also recommended for optional fields. Rather than leaving cells empty, select the most appropriate "dead value" from the following table:
+
+| Value to Enter | When to Use |
+| --- | --- |
+| `true` or `1` | Boolean field is true |
+| `false` or `0` | Boolean field is false |
+| `not applicable: control sample` | Field does not apply (sample is a control) |
+| `not applicable: sample group` | Field does not apply (part of a sample group) |
+| `not applicable` | Field does not apply to this sample type |
+| `missing: not collected: synthetic construct` | Data not collected (synthetic/lab construct) |
+| `missing: not collected: lab stock` | Data not collected (lab stock material) |
+| `missing: not collected: third party data` | Data not collected (from third party) |
+| `missing: not collected` | Data not collected (unspecified reason) |
+| `missing: not provided: data agreement established pre-2023` | Data exists but unavailable (pre-2023 agreement) |
+| `missing: not provided` | Data exists but was not provided |
+| `missing: restricted access: endangered species` | Data cannot be shared (species protection) |
+| `missing: restricted access: human-identifiable` | Data cannot be shared (privacy concerns) |
+| `missing: restricted access` | Data cannot be shared (access restrictions) |
+
+For additional details on missing value reporting, refer to the [ENA documentation on missing values](https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html).
+
+### User-Defined Terms
+
+If your project requires data fields not present in the FAIRe NOAA checklist, you can add them as **User-Defined Terms**. These custom fields can be:
+
+- **Added before template generation** — Modify the FAIRe NOAA checklist Excel file to include your custom terms before running FAIReSheets; they will automatically populate in your generated Google Sheets
+- **Added manually after generation** — Insert new columns directly into your Google Sheet with your custom field names and metadata
+
+User-Defined Terms should follow the same naming and documentation conventions as standard FAIRe terms to maintain data consistency and usability.
+
+### Project Structure and Data Relationships
+
+Understanding how your metadata files relate to each other is essential for proper data organization and submission.
+
+| Metadata File Type | Purpose | Key Identifiers | Can Submit Independently? |
+| --- | --- | --- | --- |
+| **Project Metadata** | Overarching study information, PCR targets, assay details | project_id, assay_type, assay_name | No — requires analysis file(s) |
+| **Sample Metadata** | Collection details, sample characteristics, environmental conditions | project_id, sample_id | No — requires project metadata |
+| **Experiment Run Metadata** | PCR procedures, primers, thermocycler conditions | project_id, experiment_run_id | No — requires project metadata |
+| **Analysis Metadata** | Bioinformatics pipeline, version numbers, processing parameters | project_id, analysis_run_name | Yes — if project already exists in Ocean DNA Explorer |
+
+**Critical linking fields:**
+
+- **project_id** — Must be identical across all metadata files to link sample, experiment, and analysis data to the same project
+- **analysis_run_name** — Must be unique for each analysis and correctly specified in all analysis metadata files
+- **sample_id** — Links samples to their collection metadata and experimental processing
+
+### Required Fields for Submission
+
+The following fields are **mandatory** for each submission type. All files must be in **TSV (Tab-Separated Values) format** and follow the FAIRe template structure exactly.
+
+#### Project Metadata Requirements
+
+| Required Field | Description |
+| --- | --- |
+| `project_id` | Unique identifier for the project; must match across all related files |
+| `project_contact` | Name and contact information for the project lead |
+| `assay_type` | Target marker or marker group (e.g., "16S rRNA", "18S rRNA", "COI") |
+| `assay_name` | Descriptive name for the specific assay (e.g., "ssu16sv4v5-emp") |
+| `checkls_ver` | Version of the FAIRe checklist used |
+| `pcr_0_1` | PCR cycle information or PCR primer information |
+| `targetTaxonomicAssay` | Taxonomic target of the assay (e.g., bacteria, fungi, eukaryotes) |
+| `pcr_primer_forward` | Forward primer sequence or reference |
+| `pcr_primer_reverse` | Reverse primer sequence or reference |
+
+#### Analysis Metadata Requirements
+
+| Required Field | Description |
+| --- | --- |
+| `project_id` | Must match the project_id in the project metadata file |
+| `assay_name` | Must match the assay_name from project metadata |
+| `analysis_run_name` | Unique name for this specific analysis run; used to distinguish multiple analyses of the same project |
+
+### Submitting Metadata to the Ocean DNA Explorer
+
+Once you have completed your metadata templates:
+
+1. **Export as TSV** — Download each sheet from your Google Sheets template as a TSV file
+2. **Validate structure** — Verify all required fields are present and populated
+3. **Check identifiers** — Ensure project_id, sample_id, and analysis_run_name are consistent across files
+4. **Submit files** — Upload your TSV files to the Ocean DNA Explorer through the submission portal
+
+Detailed submission instructions are available on the Ocean DNA Explorer documentation.
+
+### Submitting to OBIS and GBIF
+
+If you plan to submit your eDNA data to [OBIS (Ocean Biodiversity Information System)](https://obis.org/) or [GBIF (Global Biodiversity Information Facility)](https://www.gbif.org/), NOAA Omics has developed the **edna2obis** Python workflow to convert Ocean DNA Explorer input files to the format required by these repositories.
+
+Because edna2obis uses the same input file structure as the Ocean DNA Explorer, if your data is properly formatted for Ocean DNA Explorer submission, it can be easily adapted for OBIS and GBIF submission as well. This allows you to maximize the reach and impact of your eDNA data across multiple biodiversity platforms.
+
+For more information on preparing eDNA data for OBIS/GBIF, consult the [edna2obis GitHub repository](https://github.com/aomlomics/edna2obis) and the [GBIF guide to publishing DNA-derived data](https://docs.gbif.org/publishing-dna-derived-data/en/).
+
 ## Refining metadata to a standard
 
 Standardizing the format of your metadata can both facilitate sharing of your results with others and improve identification of errors within your own metadata. Having a method-specific template Google Sheet or Excel file for metadata that you use across all similar studies can be very helpful. This template should include a second sheet or file with a "data dictionary" defining the desired attribute columns and formats. Refining your metadata to a standard has benefits for internal use, publication, and repository submission. Refined metadata should have the following characteristics:
