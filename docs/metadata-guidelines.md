@@ -45,6 +45,20 @@ The [FAIRe (Findable, Accessible, Interoperable, Reusable) eDNA initiative](http
 
 The FAIRe standard draws from established data sources including MIxS (Minimum Information about any Sequence), Darwin Core (for biodiversity data), MIQE guidelines (for quantitative PCR), MIEM guidelines (for eDNA metabarcoding), and 158 new terms developed specifically for eDNA procedures. This comprehensive approach ensures eDNA datasets are consistently documented, discoverable, and reusable across the scientific community, supporting data-driven biodiversity management at broad scales and enabling cross-discipline reuse.
 
+For the FAIRe data standard itself, use the [FAIR eDNA website](https://fair-edna.github.io/index.html) and the [FAIR eDNA GitHub organization](https://github.com/FAIR-eDNA).
+For an end-to-end walkthrough, see the [FAIR eDNA Workshop: Mobilizing Data from Standards to Sharing](https://www.youtube.com/playlist?list=PLS6jqgZoUzto) series from [OBON](https://obon-ocean.org/), which covers the full workflow and not only ODE submission.
+
+Workshop workflow components in order:
+1. **FAIRe-ator**: R template generator for customized FAIRe Excel templates.
+2. **FAIReSheets**: Python template generator for Google Sheets in FAIRe and FAIRe-NOAA formats.
+3. **FAIRe-fier**: Metadata verifier for checking FAIRe sheets against checklist rules.
+4. **BeBOP-OBON templates**: Protocol resources from [BeBOP-OBON Protocol Collection Template](https://github.com/BeBOP-OBON/0_protocol_collection_template) and [Minimum Information about an Omics Protocol](https://github.com/BeBOP-OBON/miop) to support consistent method documentation.
+5. **FAIRe2QIIME**: Workflow conversion step used to prepare FAIRe-aligned inputs for QIIME-based analysis.
+6. **Tourmaline**: QIIME 2 plus Snakemake workflow for amplicon sequence processing.
+7. **Ocean DNA Explorer (ODE)**: NOAA portal to submit, explore, and share standardized eDNA project data.
+8. **FAIRe2NCBI**: Converter from FAIRe-NOAA metadata to NCBI BioSample and SRA templates.
+9. **edna2obis**: Converter from FAIRe-based eDNA data to Darwin Core outputs for OBIS and GBIF.
+
 ### Generating FAIRe Templates with FAIReSheets
 
 FAIReSheets is NOAA's Python-based tool for generating standardized eDNA metadata templates directly in Google Sheets, based on the FAIRe NOAA checklist (data dictionary). 
@@ -79,26 +93,17 @@ Once you have generated your templates through FAIReSheets, the next step is to 
 
 Data absence is common and occurs for many legitimate reasons — location information may be intentionally obscured to protect endangered species or culturally sensitive sites, certain measurements may not be applicable to a sample type, or data collection may have been missed due to circumstances beyond your control.
 
-For required fields that lack data, you must specify **why** the information is unavailable using the INSDC missing value controlled vocabulary. This practice is also recommended for optional fields. Rather than leaving cells empty, select the most appropriate "dead value" from the following table:
+For required fields that lack data, you must specify **why** the information is unavailable using the INSDC missing value controlled vocabulary. This practice is also recommended for optional fields. Rather than leaving cells empty, select the most appropriate "dead value" from the following list:
 
 | Value to Enter | When to Use |
 | --- | --- |
-| `true` or `1` | Boolean field is true |
-| `false` or `0` | Boolean field is false |
-| `not applicable: control sample` | Field does not apply (sample is a control) |
-| `not applicable: sample group` | Field does not apply (part of a sample group) |
-| `not applicable` | Field does not apply to this sample type |
-| `missing: not collected: synthetic construct` | Data not collected (synthetic/lab construct) |
-| `missing: not collected: lab stock` | Data not collected (lab stock material) |
-| `missing: not collected: third party data` | Data not collected (from third party) |
-| `missing: not collected` | Data not collected (unspecified reason) |
-| `missing: not provided: data agreement established pre-2023` | Data exists but unavailable (pre-2023 agreement) |
-| `missing: not provided` | Data exists but was not provided |
-| `missing: restricted access: endangered species` | Data cannot be shared (species protection) |
-| `missing: restricted access: human-identifiable` | Data cannot be shared (privacy concerns) |
-| `missing: restricted access` | Data cannot be shared (access restrictions) |
+| `missing` | Data are missing (unspecified reason) |
+| `not applicable` | Field does not apply to this sample |
+| `not collected` | Data were not collected |
+| `not provided` | Data exist but were not provided |
+| `restricted access` | Data cannot be shared due to access restrictions |
 
-For additional details on missing value reporting, refer to the [ENA documentation on missing values](https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html).
+Our "dead values" terminology maps to the [INSDC missing value reporting standard](https://www.insdc.org/technical-specifications/missing-value-reporting/).
 
 ### User-Defined Terms
 
