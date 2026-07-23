@@ -45,24 +45,25 @@ The [FAIRe (Findable, Accessible, Interoperable, Reusable) eDNA initiative](http
 
 The FAIRe standard draws from established data sources including MIxS (Minimum Information about any Sequence), Darwin Core (for biodiversity data), MIQE guidelines (for quantitative PCR), MIEM guidelines (for eDNA metabarcoding), and 158 new terms developed specifically for eDNA procedures. This comprehensive approach ensures eDNA datasets are consistently documented, discoverable, and reusable across the scientific community, supporting data-driven biodiversity management at broad scales and enabling cross-discipline reuse.
 
-For the FAIRe data standard itself, use the [FAIR eDNA website](https://fair-edna.github.io/index.html) and the [FAIR eDNA GitHub organization](https://github.com/FAIR-eDNA).
-For an end-to-end walkthrough, see the [FAIR eDNA Workshop: Mobilizing Data from Standards to Sharing](https://www.youtube.com/playlist?list=PLS6jqgZoUzto) series from [OBON](https://obon-ocean.org/), which covers the full workflow and not only ODE submission.
+For information on the FAIRe data standard itself, use the [FAIR eDNA website](https://fair-edna.github.io/index.html) and the [FAIR eDNA GitHub organization](https://github.com/FAIR-eDNA).
+
+A great way to get started is to watch the [FAIR eDNA Workshop: Mobilizing Data from Standards to Sharing](https://www.youtube.com/playlist?list=PLS6jqgZoUzto) series from [OBON](https://obon-ocean.org/), which covers the complete workflow from the data standard, generating and filling in your own data templates, and publication to repositories like [OBIS](https://obis.org/), [GBIF](https://www.gbif.org/), [NCBI](https://www.ncbi.nlm.nih.gov/), and the [Ocean DNA Explorer](https://www.oceandnaexplorer.org/).
 
 Workshop workflow components in order:
 
-1. **FAIRe-ator** - Generate customized FAIRe Excel templates (R).
-2. **FAIReSheets** - Generate Google Sheets templates in FAIRe and FAIRe-NOAA formats (Python).
-3. **FAIRe-fier** - Verify FAIRe metadata against checklist rules.
-4. **BeBOP-OBON templates** - Document methods using [BeBOP-OBON Protocol Collection Template](https://github.com/BeBOP-OBON/0_protocol_collection_template) and [Minimum Information about an Omics Protocol](https://github.com/BeBOP-OBON/miop).
-5. **FAIRe2QIIME** - Convert FAIRe-aligned inputs for QIIME-based analysis workflows.
+1. **FAIRe-ator** - Generate customized FAIRe Excel templates (R). [Tutorial](https://www.youtube.com/watch?v=gnk77IJ-X58&list=PLS6jqgZoUzto&index=3&t=12s)
+2. **FAIReSheets** - Generate Google Sheets templates in FAIRe and FAIRe-NOAA formats (Python). [Tutorial](https://www.youtube.com/watch?v=dE2g6FswuA0&list=PLS6jqgZoUzto&index=6&t=52s)
+3. **FAIRe-fier** - Verify FAIRe metadata against checklist rules. [Tutorial](https://www.youtube.com/watch?v=56tY3XEVvzA&list=PLS6jqgZoUzto&index=5&t=97s)
+4. **BeBOP-OBON templates** - Document methods using [BeBOP-OBON Protocol Collection Template](https://github.com/BeBOP-OBON/0_protocol_collection_template) and [Minimum Information about an Omics Protocol](https://github.com/BeBOP-OBON/miop). [Tutorial](https://www.youtube.com/watch?v=DupsGaYPvhw&list=PLS6jqgZoUzto&index=9)
+5. **FAIRe2QIIME** - Convert FAIRe-aligned inputs for QIIME-based analysis workflows. [Tutorial](https://www.youtube.com/watch?v=xyV6Mya_OYc&list=PLS6jqgZoUzto&index=7&t=2s)
 6. **Tourmaline** - Run QIIME 2 + Snakemake amplicon processing to generate analysis outputs, including ASV feature/taxonomy and abundance tables.
-7. **Ocean DNA Explorer (ODE)** - Submit and explore standardized eDNA project data (metadata plus analysis-linked ASV tables).
-8. **FAIRe2NCBI** - Convert FAIRe-NOAA metadata to NCBI BioSample and SRA templates.
-9. **edna2obis** - Convert FAIRe-based eDNA data to Darwin Core outputs for OBIS and GBIF.
+7. **Ocean DNA Explorer (ODE)** - Submit and explore standardized eDNA project data (metadata plus analysis-linked ASV tables). [Submission Guidelines](https://www.oceandnaexplorer.org/help)
+8. **FAIRe2NCBI** - Convert FAIRe-NOAA metadata to NCBI BioSample and SRA templates. [Tutorial](https://www.youtube.com/watch?v=xyV6Mya_OYc&list=PLS6jqgZoUzto&index=7&t=2s)
+9. **edna2obis** - Convert FAIRe-based eDNA data to Darwin Core outputs for OBIS and GBIF. [Tutorial](https://www.youtube.com/watch?v=bhNuE15icpQ&list=PLS6jqgZoUzto&index=11)
 
 ### Generating FAIRe Templates with FAIReSheets
 
-FAIReSheets is NOAA's Python-based tool for generating standardized eDNA metadata templates directly in Google Sheets, based on the FAIRe NOAA checklist (data dictionary). 
+[FAIReSheets](https://github.com/aomlomics/FAIReSheets) is NOAA's Python-based tool for generating standardized eDNA metadata templates directly in Google Sheets, based on the FAIRe NOAA checklist (data dictionary). [FAIReATOR](https://github.com/FAIR-eDNA/FAIRe-ator/tree/main) is a similar tool which creates FAIRe metadata templates in Excel, using R. However, FAIReATOR cannot created FAIRe-NOAA templates. 
 
 **Key features:**
 
@@ -226,7 +227,7 @@ Send metadata and environmental data to the [National Centers for Environmental 
 
 [GBIF](https://www.gbif.org/) and [OBIS](https://obis.org/) are global repositories of biodiversity data, and are actively interested in expanding access to eDNA observations. OBIS has the benefit of archiving data to NCEI for you. 
 
-NOAA Omics has developed a Python workflow for preparing data for submission to OBIS/GBIF, called [edna2obis](https://github.com/aomlomics/edna2obis). This workflow requires some familiarity with Jupyter Notebooks and Python.
+NOAA Omics has developed a Python workflow for preparing data for submission to OBIS/GBIF, called [edna2obis](https://github.com/aomlomics/edna2obis). We also have a [tutorial](https://www.youtube.com/watch?v=bhNuE15icpQ&list=PLS6jqgZoUzto&index=11) available to help you use edna2obis.
 
 GBIF also has a non-coding [prototype GUI tool](https://edna-tool.gbif-uat.org/) to prepare eDNA data for GBIF/OBIS.  
 
