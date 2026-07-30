@@ -2,6 +2,7 @@ site_name: NOAA Omics Data Management Guide
 theme:
   name: readthedocs
   highlightjs: true
+  custom_dir: overrides
 extra_css: [style_2.css]
 plugins:
   - search
@@ -21,6 +22,8 @@ nav:
   - 'Data Management Plans': 'dmp-template.md'
   - 'Study Data Templates': 'study-data-templates.md'
   - 'Metadata Guidelines': 'metadata-guidelines.md'
+  - 'FAIReSheets Overview': 'fairesheets.md'
+  - 'FAIReSheets Privacy Policy': 'fairesheets-privacy.md'
   - 'Omics Data Guidelines': 'omics-data-guidelines.md'
   - 'Open Science Principles': 'open-science.md'
   - 'Contributors': 'contributors.md'
