@@ -28,6 +28,8 @@ nav:
   - 'Open Science Principles': 'open-science.md'
   - 'Contributors': 'contributors.md'
   - 'Citation': 'citation.md'
+exclude_docs: |
+  noaa-template-docs/**
 use_directory_urls: false
 markdown_extensions:
   - toc:
