@@ -36,6 +36,8 @@ While templates from NCBI provide some information of formatting and support the
 
 ## FAIRe eDNA Metadata Standards
 
+![FAIRe tools and repository workflow overview](assets/full_aoml_code_repos_final.png)
+
 The [FAIRe (Findable, Accessible, Interoperable, Reusable) eDNA initiative](https://fair-edna.github.io/index.html) is an international, multi-organizational collaboration that has developed comprehensive metadata standards specifically for eDNA data. The FAIRe metadata checklist includes **337 data terms** organized into workflow sections such as sample collection, PCR, and bioinformatics, with terms classified as:
 
 - **38 mandatory terms** — required for all submissions
