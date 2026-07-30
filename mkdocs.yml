@@ -3,7 +3,7 @@ theme:
   name: readthedocs
   highlightjs: true
   custom_dir: overrides
-extra_css: [style_2.css]
+extra_css: [style.css]
 plugins:
   - search
   - mkdocstrings:

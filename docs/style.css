@@ -1,8 +1,202 @@
-
 .wy-table-responsive table td, .wy-table-responsive table th {
-    white-space: normal !important;
+    white-space: inherit;
 }
 
-.wy-table-responsive {
-    overflow : visible !important;
+/* NOAA Omics branding for MkDocs readthedocs theme */
+.wy-side-nav-search {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 0.35rem 0.65rem 0.1rem;
+    border-bottom: 2px solid #003087;
+}
+
+.wy-nav-side {
+    background: #f0f4f8;
+}
+
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+    color: #003087;
+}
+
+.wy-menu-vertical a {
+    color: #003087;
+}
+
+.wy-menu-vertical a:hover,
+.wy-menu-vertical a:focus {
+    background: #e8eef5;
+    color: #003087;
+}
+
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.current > a:hover {
+    background: #ffffff;
+    color: #003087;
+    border-left: 4px solid #003087;
+}
+
+.wy-menu-vertical li.current li a:hover {
+    background: #ffffff;
+    color: #003087;
+}
+
+.wy-menu-vertical li.current ul li a {
+    background: #ffffff;
+    color: #003087;
+    border: 0;
+    box-shadow: none;
+}
+
+.wy-menu-vertical li.current ul {
+    border: 0;
+}
+
+.wy-side-nav-search > a,
+.wy-side-nav-search .wy-dropdown > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #003087;
+    font-weight: 700;
+    line-height: 1.3;
+    min-height: 96px;
+    margin: 0;
+    padding: 4px 6px 2px 6px;
+    text-align: left !important;
+    white-space: normal;
+}
+
+.wy-side-nav-search > a::before,
+.wy-side-nav-search .wy-dropdown > a::before {
+    content: none;
+}
+
+.wy-side-nav-search > a::after,
+.wy-side-nav-search .wy-dropdown > a::after {
+    content: "";
+    flex: 0 0 96px;
+    width: 96px;
+    height: 96px;
+    margin-left: 10px;
+    background-image: url("assets/noaa_omics_logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.wy-side-nav-search > a span,
+.wy-side-nav-search .wy-dropdown > a span {
+    display: block;
+    text-align: left !important;
+    flex: 1 1 auto;
+}
+
+.wy-side-nav-search .wy-form {
+    margin-top: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.wy-nav-top {
+    background: #003087;
+    color: #ffffff;
+}
+
+a {
+    color: #0085ca;
+}
+
+a:hover {
+    color: #003087;
+}
+
+.rst-footer-buttons .btn,
+.rst-footer-buttons a.btn,
+.rst-footer-buttons .btn:visited,
+.rst-footer-buttons .btn.btn-neutral,
+.rst-footer-buttons .btn.btn-neutral:visited {
+    background: #ffffff !important;
+    border: 1px solid #003087 !important;
+    color: #003087 !important;
+    box-shadow: none !important;
+}
+
+.rst-footer-buttons .btn:hover,
+.rst-footer-buttons .btn:focus,
+.rst-footer-buttons a.btn:hover,
+.rst-footer-buttons a.btn:focus,
+.rst-footer-buttons .btn.btn-neutral:hover,
+.rst-footer-buttons .btn.btn-neutral:focus {
+    background: #ffffff !important;
+    border-color: #003087 !important;
+    color: #003087 !important;
+}
+
+/* Sidebar-bottom buttons (if theme renders them there) */
+.wy-nav-side .btn,
+.wy-nav-side a.btn,
+.wy-nav-side .btn:visited,
+.wy-nav-side .btn.btn-neutral,
+.wy-nav-side .btn.btn-neutral:visited {
+    background: #f0f4f8 !important;
+    border: 1px solid #003087 !important;
+    color: #003087 !important;
+    box-shadow: none !important;
+}
+
+.wy-nav-side .btn:hover,
+.wy-nav-side .btn:focus,
+.wy-nav-side a.btn:hover,
+.wy-nav-side a.btn:focus,
+.wy-nav-side .btn.btn-neutral:hover,
+.wy-nav-side .btn.btn-neutral:focus {
+    background: #ffffff !important;
+    border-color: #003087 !important;
+    color: #003087 !important;
+}
+
+/* ReadTheDocs bottom-left previous/next version footer */
+.rst-versions,
+.rst-versions .rst-current-version {
+    background: #f0f4f8 !important;
+    color: #003087 !important;
+    border-top: 0 !important;
+    box-shadow: none !important;
+}
+
+.rst-versions .rst-current-version {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px !important;
+}
+
+.rst-versions .rst-current-version > span {
+    flex: 1 1 0;
+}
+
+.rst-versions .rst-current-version span a,
+.rst-versions .rst-current-version span a:visited,
+.rst-versions .rst-current-version span a[style] {
+    color: #003087 !important;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 36px;
+    background: #ffffff !important;
+    border: 1px solid #003087 !important;
+    border-radius: 6px;
+    padding: 7px 10px;
+    line-height: 1.2;
+    box-shadow: none !important;
+}
+
+.rst-versions .rst-current-version span a:hover,
+.rst-versions .rst-current-version span a:focus {
+    color: #003087 !important;
+    background: #e8eef5 !important;
+    border-color: #003087;
 }
