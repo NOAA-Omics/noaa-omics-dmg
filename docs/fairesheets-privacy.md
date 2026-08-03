@@ -35,7 +35,7 @@ FAIReSheets does not retain, store, or log any Google Spreadsheet user data. Dat
 
 To prevent users from needing to re-authenticate on every launch, standard OAuth credentials (e.g., `token.json`) are stored strictly locally on the user's machine. These tokens are never transmitted to or stored on any external servers.
 
-OAuth client credentials (`client_secrets.json`) are also stored locally on the user's machine. During the current testing / unverified-app workflow, these client credentials may be downloaded once from a private GitHub Gist URL configured by the user in `.env` (`GIST_URL`). This Gist transfer involves only OAuth client configuration, not Google Spreadsheet user data.
+OAuth client credentials (e.g., `client_secrets.json`) used to identify the FAIReSheets application to Google are also stored locally on the user's machine and do not contain or transmit any Google user data.
 
 ## Data Sharing
 
