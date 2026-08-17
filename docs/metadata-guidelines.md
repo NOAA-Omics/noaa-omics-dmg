@@ -36,7 +36,10 @@ While templates from NCBI provide some information of formatting and support the
 
 ## FAIRe eDNA Metadata Standards
 
-![FAIRe tools and repository workflow overview](assets/full_aoml_code_repos_final.png)
+<figure>
+  <img src="assets/full_aoml_code_repos_final.png" alt="FAIRe at NOAA AOML: tools and repository workflow overview" />
+  <figcaption><strong>Figure 1.</strong> The FAIR eDNA workflow at NOAA AOML, showing inputs and outputs for each open-source software tool. A NOAA Omics product, funded by NOAA Ocean Exploration, in partnership with NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML) and the Northern Gulf Institute, Mississippi State University.</figcaption>
+</figure>
 
 The [FAIRe (Findable, Accessible, Interoperable, Reusable) eDNA initiative](https://fair-edna.github.io/index.html) is an international, multi-organizational collaboration that has developed comprehensive metadata standards specifically for eDNA data. The FAIRe metadata checklist includes **337 data terms** organized into workflow sections such as sample collection, PCR, and bioinformatics, with terms classified as:
 
@@ -161,20 +164,20 @@ The following fields are **mandatory** for each submission type. All files must 
 | `assay_name` | Must match the assay_name from project metadata |
 | `analysis_run_name` | Unique name for this specific analysis run; used to distinguish multiple analyses of the same project |
 
-### Submitting Metadata to the Ocean DNA Explorer
+### Submitting Data to the Ocean DNA Explorer
 
 Once you have completed your metadata templates:
 
-1. **Export as TSV** — Download each sheet from your Google Sheets template as a TSV file
-2. **Validate structure** — Verify all required fields are present and populated
-3. **Check identifiers** — Ensure project_id, sample_id, and analysis_run_name are consistent across files
-4. **Prepare analysis inputs** — For each analysis run, include:
+1. **Export as TSV**: Download each sheet from your Google Sheets template as a TSV file
+2. **Validate structure**: Verify all required fields are present and populated
+3. **Check identifiers**: Ensure project_id, sample_id, and analysis_run_name are consistent across files
+4. **Prepare analysis inputs**: For each analysis run, include:
    - `analysisMetadata` (often generated from Tourmaline configs; see [Tourmaline README](https://github.com/aomlomics/tourmaline/blob/develop/README.md))
    - ASV taxonomy features table (for example: `featureid`, DNA sequence, taxonomy, and rank fields)
    - ASV abundance table (sample-by-feature count table keyed by `featureid`)
-5. **Submit files** — Upload metadata and analysis-linked ASV files to the Ocean DNA Explorer submission portal
+5. **Submit files**: Upload metadata and analysis-linked ASV files on the [Ocean DNA Explorer submission page](https://www.oceandnaexplorer.org/submit)
 
-Detailed submission instructions are available on the Ocean DNA Explorer documentation. For a concrete example of ODE-compatible raw ASV taxonomy and abundance inputs, see the [edna2obis README](https://github.com/aomlomics/edna2obis/blob/main/README.md).
+Detailed submission instructions are available on the [Ocean DNA Explorer submission page](https://www.oceandnaexplorer.org/submit). For a concrete example of ODE-compatible raw ASV taxonomy and abundance inputs, see the [edna2obis README](https://github.com/aomlomics/edna2obis/blob/main/README.md).
 
 ### Submitting to OBIS and GBIF
 
