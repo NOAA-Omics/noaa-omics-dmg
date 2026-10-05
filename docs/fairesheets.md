@@ -11,6 +11,11 @@ FAIReSheets is a locally run Python CLI application that generates eDNA metadata
 
 [![Watch tutorial on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/dE2g6FswuA0?si=8UNWfRzU_hjMRMFY)
 
+<figure>
+  <img src="assets/fairesheets_overview_graphic.png" alt="FAIReSheets overview: checklist and config.yaml to Google Sheets templates for Ocean DNA Explorer and related tools" />
+  <figcaption><strong>Figure 1.</strong> FAIReSheets builds Google Sheets from the FAIR eDNA checklist and produces templates used by Ocean DNA Explorer and related tools. A NOAA Omics product, funded by NOAA Ocean Exploration, in partnership with NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML) and the Northern Gulf Institute, Mississippi State University.</figcaption>
+</figure>
+
 FAIReSheets generates custom FAIRe metadata templates in Google Sheets. The user provides a spreadsheet ID and the application creates the templates using the latest FAIRe checklist. The optional Google Apps Script in the README provides additional custom features like revision history tracking, TSV export, column and row re-ordering, and data validation warnings.
 
 ## OAuth Scope and Access

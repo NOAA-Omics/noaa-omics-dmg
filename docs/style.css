@@ -6,6 +6,11 @@ figure {
     margin: 0 0 1.5rem 0;
 }
 
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
 figcaption {
     font-size: 0.75em;
     color: #4a4a4a;
